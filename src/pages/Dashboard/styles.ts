@@ -53,6 +53,7 @@ export const CategoryItem = styled.TouchableOpacity<CategoryItemProps>`
   margin-right: 8px;
   align-items: center;
   justify-content: space-between;
+
   text-align: center;
   ${props =>
     props.isSelected &&
@@ -76,7 +77,7 @@ export const FoodsContainer = styled.View`
 `;
 
 export const FoodList = styled.View`
-  flex: 1;
+  /* flex: 1; */
   padding: 0 20px;
   margin-top: 16px;
 `;
